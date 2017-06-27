@@ -5,7 +5,7 @@ package com.cdp.patterns.creational.factorymethod;
  */
 public abstract class BaseDriver {
     protected String driver;
-    protected abstract void createDriver();
+    protected abstract String createDriver();
 
     public void quitDriver(){
         if(driver != null){
