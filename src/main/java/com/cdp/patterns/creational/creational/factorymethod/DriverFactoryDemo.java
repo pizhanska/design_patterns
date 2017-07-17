@@ -1,11 +1,8 @@
-package com.cdp.patterns.creational.factorymethod;
+package com.cdp.patterns.creational.creational.factorymethod;
 
-/**
- * Created by Uliana Pizhanska on 28/06/2017.
- */
 public class DriverFactoryDemo {
-    public static BaseDriver baseDriver;
-    public static String driver;
+    private static BaseDriver baseDriver;
+    private static String driver;
     public static void main(String[] args){
         baseDriver = DriverFactory.getDriver(DriverFactory.DriverType.CHROME);
         driver = baseDriver.createDriver();
