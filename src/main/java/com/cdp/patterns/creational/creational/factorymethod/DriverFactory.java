@@ -1,10 +1,8 @@
-package com.cdp.patterns.creational.factorymethod;
+package com.cdp.patterns.creational.creational.factorymethod;
 
-/**
- * Created by Uliana Pizhanska on 28/06/2017.
- */
 public class DriverFactory {
-    public enum DriverType {CHROME, FIREFOX;}
+    public enum DriverType {CHROME, FIREFOX}
+
 
     public static BaseDriver getDriver(DriverType type){
         BaseDriver baseDriver;
