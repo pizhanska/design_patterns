@@ -1,4 +1,4 @@
-package com.cdp.patterns.creational.creational.factorymethod;
+package com.cdp.patterns.creational.factorymethod;
 
 public class DriverFactoryDemo {
     private static BaseDriver baseDriver;
