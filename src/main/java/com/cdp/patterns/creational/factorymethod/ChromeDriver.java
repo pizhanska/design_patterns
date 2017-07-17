@@ -1,4 +1,4 @@
-package com.cdp.patterns.creational.creational.factorymethod;
+package com.cdp.patterns.creational.factorymethod;
 
 public class ChromeDriver extends BaseDriver {
 
